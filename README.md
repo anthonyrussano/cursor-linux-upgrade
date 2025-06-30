@@ -1,19 +1,12 @@
 # Cursor Updater for Linux
 
-A robust utility script to update the Cursor editor on Linux systems. This script automatically fetches the latest version, handles installation, and provides various options for customization.
+A utility script to update the Cursor IDE on Linux systems.
 
-## Features
-
-- ✅ Automatic version checking and comparison
-- ✅ Download progress indication
-- ✅ Backup of existing installations
-- ✅ Proper error handling and logging
-- ✅ Command-line options for flexibility
-- ✅ Semantic version comparison
+This script fetches the latest version, handles installation, and provides various options for customization.
 
 ## Requirements
 
-- Python 3.6 or higher
+- Python 3.12 or higher.
 - `requests` package
 - `packaging` package
 - `sudo` privileges (for installation)
@@ -22,27 +15,27 @@ A robust utility script to update the Cursor editor on Linux systems. This scrip
 
 Basic usage:
 ```bash
-./cursor_updater.py
+./update-cursor.py
 ```
 
 Check for updates without installing:
 ```bash
-./cursor_updater.py --check
+./update-cursor.py --check
 ```
 
 Force update even if the current version is the latest:
 ```bash
-./cursor_updater.py --force
+./update-cursor.py --force
 ```
 
 Skip backing up the existing installation:
 ```bash
-./cursor_updater.py --no-backup
+./update-cursor.py --no-backup
 ```
 
 Enable verbose logging:
 ```bash
-./cursor_updater.py --verbose
+./update-cursor.py --verbose
 ```
 
 ## How It Works

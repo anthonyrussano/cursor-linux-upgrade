@@ -1,4 +1,11 @@
 #!/usr/bin/env python3
+# /// script
+# requires-python = ">=3.12"
+# dependencies = [
+#     "packaging",
+#     "requests",
+# ]
+# ///
 import argparse
 import logging
 import os
